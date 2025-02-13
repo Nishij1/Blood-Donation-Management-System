@@ -183,8 +183,8 @@ init_session();
                         <h3>Emergency Contact</h3>
                         <p class="text-danger mb-4">For urgent blood requirements:</p>
                         <ul class="list-unstyled">
-                            <li class="mb-3"><i class="fas fa-phone me-2"></i> Emergency: +91 83294 08037 </li>
-                            <li class="mb-3"><i class="fas fa-envelope me-2"></i> ankitbodkhe2003@gmail.com</li>
+                            <li class="mb-3"><i class="fas fa-phone me-2"></i> Emergency: +91 1234567890 </li>
+                            <li class="mb-3"><i class="fas fa-envelope me-2"></i> nishijsontakke123@gmail.com</li>
                             <li class="mb-3"><i class="fas fa-clock me-2"></i> 24/7 Available </li>
                         </ul>
                     </div>
