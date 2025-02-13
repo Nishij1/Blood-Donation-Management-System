@@ -1,0 +1,104 @@
+body {
+    background-color: #f8f9fa;
+    min-height: 100vh;
+}
+
+.wrapper {
+    padding: 20px;
+}
+
+.card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-title {
+    color: #333;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.icon-shape {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-shape i {
+    font-size: 1.5rem;
+}
+
+.donation-stats h2 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+    color: #0d6efd;
+}
+
+.navbar {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-brand i {
+    color: #dc3545;
+}
+
+.nav-link i {
+    margin-right: 5px;
+}
+
+.nav-link.active {
+    background-color: rgba(255,255,255,0.1);
+    border-radius: 4px;
+}
+
+.table {
+    margin-bottom: 0;
+}
+
+.table th {
+    font-weight: 600;
+    color: #555;
+}
+
+.badge {
+    padding: 8px 12px;
+    border-radius: 30px;
+}
+
+.dropdown-item i {
+    width: 20px;
+    margin-right: 5px;
+}
+
+/* Statistics Cards */
+.stats-card {
+    background: linear-gradient(45deg, #0d6efd, #0a58ca);
+    color: white;
+}
+
+.stats-card .icon {
+    opacity: 0.8;
+}
+
+.stats-card:nth-child(2) {
+    background: linear-gradient(45deg, #dc3545, #b02a37);
+}
+
+.stats-card:nth-child(3) {
+    background: linear-gradient(45deg, #ffc107, #d39e00);
+}
+
+.stats-card:nth-child(4) {
+    background: linear-gradient(45deg, #198754, #146c43);
+} 
